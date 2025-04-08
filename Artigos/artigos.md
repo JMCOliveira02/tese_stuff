@@ -31,3 +31,16 @@
     * Opera diretamente em point clouds e utiliza PointNet++ como backbone da rede neuronal
     * apenas geometria sem a parte da cor, e supera métodos anterior mesmo sem cor
     * usa os datasets ScanNet e SUN RGB-D para teste 
+
+4. PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space
+* Info
+    * Ano: 2017
+    * Publicado em: ICCV 2019
+* Links
+    * https://arxiv.org/pdf/1706.02413
+    * https://github.com/charlesq34/pointnet2
+* Notas
+    * end-to-end 3D object detector with hough voting (para se encontrar o centro dos objetos)
+    * Opera diretamente em point clouds e utiliza PointNet++ como backbone da rede neuronal
+    * apenas geometria sem a parte da cor, e supera métodos anterior mesmo sem cor
+    * usa os datasets ScanNet e SUN RGB-D para teste 
