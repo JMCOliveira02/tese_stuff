@@ -1,7 +1,9 @@
 ## Modelos
 * Openmmlab (PointNet2, VoteNet)                    **Miguel**
+    * Colab de segmentação com PointNet 
 * PointTransformer                                  **Biltes**
 * Nó de ROS para receber e processar pointcloud     **Miguel**
+    * Recebe e publica com cores diferentes 
 * Ver output da segmentation dos modelos            **Ambos**
 * Algoritmo para separar as paredes                 **Ambos**
 
