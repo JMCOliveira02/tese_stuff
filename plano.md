@@ -1,30 +1,16 @@
-## Modelos
-* Openmmlab (PointNet2, VoteNet)                    **Miguel**
-    * Colab de segmentação com PointNet 
-* PointTransformer                                  **Biltes**
-* Nó de ROS para receber e processar pointcloud     **Miguel**
-    * Recebe e publica com cores diferentes 
-* Ver output da segmentation dos modelos            **Ambos**
-* Algoritmo para separar as paredes                 **Ambos**
+# Plano geral (É um planooo, e é geraaal)
+## Estimação da pose
+* Calcular e publicar covariância da pose
+* Depois do resample, a pose fica aleatória
 
-## Filtro
-* Alterar o filtro para receber keypoints 3D        **Biltes**
-    * Keypoints
-    * Classe
-    * Confiança
-    * Ponto médio dos pontos da classe
-* Alterar o filtro para receber paredes orientadas  **Pensar nisto**
-    * Robot envia:
-        * Distância
-        * Orientação da normal em 3D
-    * No mapa:
-        * Centro
-        * Orientação
-        * Pensar em algo para limitar os planos
-    * PLANO B: Ao molhe de keypoints
-* Ver AI no resampling                              **X**
-## IIlab 
-* Esperar que o caralho do modelo chegue
-* Testar importar outro ficheiro CAD no webots      **Miguel**                       
-## Dataset
-* Falar com o héber sobre isto
+## Avaliação da estimação
+* Fazer um ros2 bag do /cmd_vel de exemplo 
+* Fazer algo que lance o tracker e o rosbag automaticamente
+* Completar o PathTracker
+    * Regista a cada N milissegundos a pose real e a pose estimada + covariância num csv
+
+## Cantos 2D/3D
+* Testar o filtro com o detetor de cantos 2D 
+
+## Features 3D
+* Decidir o formato das features

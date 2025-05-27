@@ -44,3 +44,10 @@
     * Opera diretamente em point clouds e utiliza PointNet++ como backbone da rede neuronal
     * apenas geometria sem a parte da cor, e supera métodos anterior mesmo sem cor
     * usa os datasets ScanNet e SUN RGB-D para teste 
+
+5. Vertical Corner Feature Based Precise Vehicle Localization Using 3D LIDAR in Urban Area
+    * Info
+        * Ano: 2016
+        * Publicado em: Sensors
+    * Links
+        * https://www.mdpi.com/1424-8220/16/8/1268
